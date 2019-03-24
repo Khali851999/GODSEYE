@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:background="@drawable/backmain"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:id="@+id/ivgods"
+        android:src="@drawable/godseyelong"/>
+
+        <EditText
+            android:id="@+id/etemaillogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/button"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:hint="Email Address/Phone Number"
+            android:textColorHint="@color/colorPrimaryDark" />
+
+        <EditText
+            android:id="@+id/etpasslogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:background="@drawable/button"
+            android:padding="10dp"
+            android:hint="Password"
+            android:maxLength="10"
+            android:textColorHint="@color/colorPrimaryDark"/>
+
+        <Button
+            android:id="@+id/btnlogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button1"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="Not a Member? Register"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_marginLeft="85dp"
+        android:id="@+id/tvnotamem"
+        android:onClick="notamem"
+        android:layout_marginTop="40dp"/>
+
+    </LinearLayout>

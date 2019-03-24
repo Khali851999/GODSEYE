@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backmain"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbarotp"
+        android:background="@color/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OTP VERIFICATION"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        android:layout_marginBottom="80dp"/>
+
+    <com.alimuzaffar.lib.pin.PinEntryEditText
+        android:id="@+id/txt_pin_entry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cursorVisible="false"
+        android:digits="1234567890"
+        android:layout_margin="15dp"
+        android:inputType="number"
+        android:textColor="#FFFFFF"
+        android:maxLength="6"
+        android:textIsSelectable="false"
+        android:textSize="20sp"
+        app:pinAnimationType="popIn"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="Resend OTP"
+        android:id="@+id/resendotp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+
+
+</LinearLayout>

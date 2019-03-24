@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "466491371415",
+    "firebase_url": "https://godseye-5ba0a.firebaseio.com",
+    "project_id": "godseye-5ba0a",
+    "storage_bucket": "godseye-5ba0a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466491371415:android:08f914ff95f566a3",
+        "android_client_info": {
+          "package_name": "com.example.godseye"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466491371415-64u42nfgleorts5sfk9610ishg8r1fsg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.godseye",
+            "certificate_hash": "36db03eb6a522da2a7b8057b7bc1503338d3c9d4"
+          }
+        },
+        {
+          "client_id": "466491371415-ief9a99fhbu3qa38hjlqhqc1ovurs15i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2mLF3-2kcnOnARUTy4JIgUKaKht03YUc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466491371415-ief9a99fhbu3qa38hjlqhqc1ovurs15i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
